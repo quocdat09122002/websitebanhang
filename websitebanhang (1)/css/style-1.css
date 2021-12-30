@@ -410,6 +410,14 @@ border-bottom: 1px black solid;
     width: 90%;
 }
 
+.footer-3{
+    background: rgb(245, 243, 243);
+    padding: 1rem;
+}
+.footer-3 ul li{
+    margin-top: 0.5rem;
+
+}
 .link-support ul li, .link-support ul li a{
     font-size: 12.5px;
 
