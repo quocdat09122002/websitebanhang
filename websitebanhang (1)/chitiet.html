@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Store</title>
+
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <div id="fb-root"></div>
+</head>
+
+<body>
+    <!-- --header-- -->
+    <div class="container-fluid header">
+        <div class="container-fluid fixed-top bg-light">
+
+            <nav class=" navbar   navbar-toggler">
+                <button class="navbar-toggler menu" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
+                <div id="my-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto header-menu">
+                        <li class="nav-item active">
+                            <a class="nav-link" onclick="chuyen()">TRANG CHỦ <span class="sr-only delepro">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="false">IPHONE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">SAMSUNG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">OPPO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">REALME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">LIÊN HỆ</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="mr-3 cart">
+                        <a  onclick="checkLogin()">
+                            <i class="fas fa-user"></i>
+                        </a>
+
+
+                        <a class="ml-3 mr-3" href="./cart.html">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+
+                    </div>
+                    
+                </div>
+            </nav>
+        </div>
+
+    </div>
+
+    <!-- --product-- -->
+    <div class="container-fluid mt-5 mb-5">
+        <!-- <div class="container chitietsanpham">
+           <h3>Sản phẩm/Áo dài truyền thống</h3>
+           <div class="sanpham">
+               <div class="hinhanh mt-3">
+                   <img src="img/s13.jpg" alt="">
+               </div>
+               <div class="content mt-3">
+                <div class="title">
+                    <span class="title-name h5">Váy cổ tròn diễu chỉ nổi tay gấu tua rua DAV140</span> 
+                   <span class="title-ma">Mã sản phẩm:<b>VND0321V07(Y)</b> </span> 
+                   <span class="title-trangthai">Còn hàng</span> 
+                </div> 
+                <div class="price">400000₫</div>
+                <button class="btn btn-primary themhang">Thêm vào giỏ</button>
+
+                <div class="content-footer">
+                    <div class="giaohang">
+                        <div><i class="fas fa-truck"></i></div>
+                        <div class="giaohang-content">
+                            <h4>MIỄN PHÍ GIAO HÀNG TOÀN QUỐC</h4>
+                        <p>(Sản phẩm trên 300,000đ)</p>
+                        </div>
+                        
+                    </div>
+                    <div class="giaohang">
+                        <div><i class="fas fa-file-invoice"></i></div>
+                        <div class="giaohang-content">
+                            <h4>ĐỔI TRẢ DỄ DÀNG</h4>
+                            <p>(Đổi trả 24h cho tất cả sản phẩm đầy đủ tem mác)</p>
+                        </div>
+                        
+                    </div>
+                    <div class="giaohang">
+                        <div><i class="fas fa-phone-alt"></i></div>
+                        <div class="giaohang-content">
+                            <h4>TỔNG ĐÀI BÁN HÀNG 1800 1162</h4>
+                            <p>(Miễn phí từ 8h30 - 21:30 mỗi ngày)</p>
+                        </div>           
+                    </div>
+                </div>
+               </div>
+           </div>
+        </div> -->
+        <div class="container chitietsanpham" id="chitiet">
+            
+         </div>
+    </div>
+
+    <!-- ---- -->
+</body>
+<script src="js/product2.js"></script>
+<script src="js/control.js"></script>
+<script src="js/user.js"></script>
+</html>
